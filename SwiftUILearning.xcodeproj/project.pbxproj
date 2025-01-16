@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C7B73412D008E9000E57E7E /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B73402D008E8C00E57E7E /* ContentView1.swift */; };
 		8C9ECACB2C79757E008987BE /* SwiftUIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ECACA2C79757E008987BE /* SwiftUIPath.swift */; };
 		8C9ECACD2C797976008987BE /* SwiftUIAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ECACC2C797976008987BE /* SwiftUIAnimation.swift */; };
 		8C9ECACF2C797B89008987BE /* SwiftUIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9ECACE2C797B89008987BE /* SwiftUIList.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C7B73402D008E8C00E57E7E /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		8C9ECACA2C79757E008987BE /* SwiftUIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPath.swift; sourceTree = "<group>"; };
 		8C9ECACC2C797976008987BE /* SwiftUIAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimation.swift; sourceTree = "<group>"; };
 		8C9ECACE2C797B89008987BE /* SwiftUIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIList.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				8CB510162C7B0D030033CACB /* APIEndpoint.swift */,
 				8CB510122C7B0C090033CACB /* APIManager.swift */,
 				8CB510142C7B0C190033CACB /* JSONResponseHandler.swift */,
+				8C7B73402D008E8C00E57E7E /* ContentView1.swift */,
 				8CA959322C7A118600DAC600 /* Assets.xcassets */,
 				8CA959342C7A118600DAC600 /* Preview Content */,
 				8CBE57042C7AE7D800A823D0 /* Property List.plist */,
@@ -325,6 +328,7 @@
 				8CB9628E2C78A74700A16754 /* SwiftUIStacks.swift in Sources */,
 				8CB9628C2C78A57300A16754 /* SwiftUIImage.swift in Sources */,
 				8C9ECACD2C797976008987BE /* SwiftUIAnimation.swift in Sources */,
+				8C7B73412D008E9000E57E7E /* ContentView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

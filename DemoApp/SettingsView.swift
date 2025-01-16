@@ -4,7 +4,7 @@ struct SettingsView: View {
     @State private var toggleOn = false
     @State private var logout = false
     @State private var delete = false
-    
+    @State private var progress = 0.5
     var body: some View {
         
             Form {
@@ -13,6 +13,15 @@ struct SettingsView: View {
                 LeagalViewSection()
                 
                 AccountActionSection(delete: $delete, logout: $logout)
+              
+                
+                Gauge(value: progress, in: 0...1) {
+                    Text("Speed")
+                } currentValueLabel: {
+                    Text("\(Int(progress * 100))%")
+                }
+                .gaugeStyle(.accessoryCircular)
+                .padding()
             }
        
     }
